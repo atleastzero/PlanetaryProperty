@@ -1,0 +1,26 @@
+{% extends 'partials/base.html' %} {% block content %}
+
+<div class="container">
+    <div class="jumbotron">
+        <blockquote class="text-right">
+            <p>
+                <h1 class="text-left">"</h1>
+                <h3 class="text-center">{{name}} is for everyone.</h3>
+                <h1>"</h1>
+            </p>
+            <footer class="blockquote-footer">Literally everyone</footer>
+        </blockquote>
+    </div>
+</div>
+
+<div class="container">
+    <figure class="figure">
+        <img src="../static/ugh.jpeg" class="my-2">
+        <figcaption class="figure-caption">Located in this image at $CORRUPTDATA!? </figcaption>
+    </figure>
+
+    <p>{{ comments }}</p>
+
+</div>
+
+{% endblock %}

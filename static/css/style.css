@@ -1,0 +1,12 @@
+.index {
+    background-image: url("../solar.jpg");
+}
+
+.card {
+    border: 1 lightblue solid;
+    color: lightblue;
+}
+
+section:nth-child(odd) {
+    background-color: lightblue;
+}
